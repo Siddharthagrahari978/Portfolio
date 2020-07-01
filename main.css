@@ -452,7 +452,9 @@ hr {
     margin-bottom: 2rem;
   }
 }
-
+.project-item:nth-child(odd) .project-img{
+  order: 1;
+}
 .project-img {
   flex: 1;
 }
