@@ -431,11 +431,26 @@ hr {
   margin: auto;
 }
 
-.project-item {
+/*.project-item {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 1.45rem 5rem 1.45rem;
+}*/
+.project-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin: 0 1.45rem 5rem 1.45rem;
+  align-items: center;
+}
+@media (max-width:665px){
+  .project-item{
+    display: block;
+  }
+  .project-img{
+    margin-bottom: 2rem;
+  }
 }
 
 .project-img {
