@@ -227,7 +227,7 @@ nav {
   white-space: nowrap;
   animation: typing 5s steps(28), blink 1s ease-in-out 7s infinite;
   border-right: 4px solid #fafafa;
-  margin: auto;
+  margin: 4vh auto;
   width: 27ch;
 }
 
