@@ -585,8 +585,9 @@ footer a {
   }
   .main-message h1 {
     letter-spacing: 0.6rem;
-    font-size: 1.3rem;
-    width: 29ch;
+    font-size: 1.8rem;
+    width: 25ch;
+    margin: 4rem auto;
   }
   .main-message h3 {
     font-size: 2rem;
