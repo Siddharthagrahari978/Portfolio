@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -107,7 +108,7 @@
           </div>
         </div>
       </section>
-      <section id="about" class="about">
+      <section id="about" class="about" data-aos="fade-up">
         <div class="container">
           <div class="about-img">
             <img
@@ -136,7 +137,7 @@
         </div>
         <hr />
       </section>
-      <section id="services" class="services">
+      <section id="services" class="services" data-aos="fade-up">
         <div class="container">
           <div class="title-heading">
             <h1>Digitize your business</h1>
@@ -196,7 +197,7 @@
           </div>
         </div>
         <!-- First project -->
-        <div class="project-item">
+        <div class="project-item" data-aos="fade-left">
           <div class="project-img">
             <img src="images/secretdiary.png" />
           </div>
@@ -218,7 +219,7 @@
         </div>
 
         <!-- Second project -->
-        <div class="project-item">
+        <div class="project-item" data-aos="fade-right">
           <div class="project-img">
             <img src="images/calculator.png" />
           </div>
@@ -242,7 +243,7 @@
           
         </div>
         <!-- Third project -->
-        <div class="project-item">
+        <div class="project-item" data-aos="fade-left">
           <div class="project-img">
             <img src="images/commentmanagesystem.png" />
           </div>
@@ -263,7 +264,7 @@
           </div>
         </div>
         <!-- Forth project -->
-        <div class="project-item">
+        <div class="project-item" data-aos="fade-right">
           <div class="project-img">
             <img src="images/weather.png" />
           </div>
@@ -291,7 +292,7 @@
         
         <hr />
       </section>
-      <section id="contact" class="contact">
+      <section id="contact" class="contact" data-aos="fade-up">
         <h1>Get In Touch</h1>
         <p>
           I'd love if you reached out to me. Even if it's just to say "Hey!".
@@ -356,5 +357,12 @@
       src="https://kit.fontawesome.com/836a943e18.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:160,
+      duration:600,
+    });
+  </script>
   </body>
 </html>
