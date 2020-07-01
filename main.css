@@ -429,6 +429,7 @@ hr {
   min-height: 100vh;
   max-width: 70rem;
   margin: auto;
+  overflow:hidden;
 }
 
 /*.project-item {
