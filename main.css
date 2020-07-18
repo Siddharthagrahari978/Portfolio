@@ -7,16 +7,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  
-}
-
-*,
-*::before,
-*::after{
+  /*Scroll bar Styling for mozilla firefox*/
   scrollbar-width: thin;          /* "auto" or "thin"  */
   scrollbar-color: #323739 rgb(19, 19, 19);   /* scroll thumb & track */
   
 }
+
 
 /* Scroll bar styling */
 
