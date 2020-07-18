@@ -24,13 +24,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #22454C;
+  background: #0f3138;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #22454C;
+  background: #0f3138;
 }
 
 /* scroll bar style end */
