@@ -41,8 +41,8 @@
 
 body {
   scrollbar-width: thin;          /* "auto" or "thin"  */
-  scrollbar-color: #323739 none;   /* scroll thumb & track */
-  overflow-y: scroll;
+  scrollbar-color: #323739 rgb(19, 19, 19);   /* scroll thumb & track */
+  overflow-y: auto;
 }
 
 /* scroll bar style end */
