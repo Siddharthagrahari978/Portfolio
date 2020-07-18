@@ -9,6 +9,32 @@
   box-sizing: inherit;
 }
 
+/* Schroll bar styling */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #22434A;
+  opacity: 0.65;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #22454C;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #22454C;
+}
+
+/* scroll bar style end */
+
 html {
   font-family: "Share Tech Mono", monospace;
   font-size: 12px;
