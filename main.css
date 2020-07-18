@@ -37,6 +37,35 @@
   background: #323739;
 }
 
+/* for firefox*/
+
+/* width */
+::-moz-scrollbar {
+  width: 7px;
+}
+::-moz-scrollbar:hover {
+  width: 10px;
+}
+
+
+/* Track */
+::-moz-scrollbar-track {
+  background: inherit;
+  opacity: 0.4;
+}
+ 
+/* Handle */
+::-moz-scrollbar-thumb {
+  background: #323739;
+  border-radius: 3.5px;
+}
+
+/* Handle on hover */
+::-moz-scrollbar-thumb:hover {
+  background: #323739;
+}
+
+
 /* scroll bar style end */
 
 html {
