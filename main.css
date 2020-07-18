@@ -7,9 +7,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  scrollbar-width: thin;          /* "auto" or "thin"  */
+  scrollbar-color: #323739 rgb(19, 19, 19);   /* scroll thumb & track */
+  overflow-y: auto;
 }
 
-/* Schroll bar styling */
+/* Scroll bar styling */
 
 /* width */
 ::-webkit-scrollbar {
@@ -37,13 +40,7 @@
   background: #323739;
 }
 
-/* for firefox*/
 
-.scrollbar {
-  scrollbar-width: none;          /* "auto" or "thin"  */
-  scrollbar-color: #323739 rgb(19, 19, 19);   /* scroll thumb & track */
-  overflow-y: auto;
-}
 
 /* scroll bar style end */
 
