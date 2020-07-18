@@ -13,8 +13,12 @@
 
 /* width */
 ::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar:hover {
   width: 10px;
 }
+
 
 /* Track */
 ::-webkit-scrollbar-track {
