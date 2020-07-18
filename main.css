@@ -28,13 +28,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0f3138;
+  background: #323739;
   border-radius: 3.5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0f3138;
+  background: #323739;
 }
 
 /* scroll bar style end */
