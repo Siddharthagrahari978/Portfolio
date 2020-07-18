@@ -15,7 +15,7 @@
 *::after{
   scrollbar-width: thin;          /* "auto" or "thin"  */
   scrollbar-color: #323739 rgb(19, 19, 19);   /* scroll thumb & track */
-  overflow-y: auto;
+  
 }
 
 /* Scroll bar styling */
