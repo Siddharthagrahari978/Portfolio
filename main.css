@@ -33,8 +33,6 @@
         } 
 #loading-text{
   color:#205e6b;
-  animation: none;
-  padding: auto;
 }
           
         @keyframes spin { 
