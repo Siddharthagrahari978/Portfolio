@@ -4,8 +4,10 @@ document.onreadystatechange = function() {
 		document.querySelector("body").style.visibility = "hidden"; 
 		document.querySelector("#loader").style.visibility = "visible"; 
 	} else if(document.readyState == "complete") { 
-		document.querySelector("#loader").style.display = "none"; 
-		document.querySelector("body").style.visibility = "visible"; 
+		window.setTimeout(function(){
+			document.querySelector("#loader").style.display = "none"; 
+			document.querySelector("body").style.visibility = "visible"; 
+		},3000);
 	} 
 };
 
