@@ -7,7 +7,7 @@ document.onreadystatechange = function() {
 	} else if(document.readyState == "complete") { 
 		var timeTaken=(Date.now()-timeStart)/1000;
 		var loadingTime = 3000-timeTaken;
-		alert(timeTaken,loadingTime);
+		console.log(timeTaken,loadingTime);
 		window.setTimeout(function(){
 			document.querySelector("#loader").style.display = "none"; 
 			document.querySelector("body").style.visibility = "visible"; 
