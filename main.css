@@ -15,12 +15,17 @@
 
 /**/
 #loader { 
-            border: 12px solid #f3f3f3; 
+            border: 12px solid #21444B; 
             border-radius: 50%; 
-            border-top: 12px solid #444444; 
-            width: 70px; 
-            height: 70px; 
-            animation: spin 1s linear infinite; 
+            border-top: 8px solid #444444; 
+            width: 60px; 
+            height: 60px;
+            background: linear-gradient(
+              135deg,
+              rgba(0, 64, 77, 0.9) 0%,
+              rgba(0, 0, 0, 0.8) 100%
+            ),
+            animation: spin 1.5s linear infinite; 
         } 
           
         @keyframes spin { 
