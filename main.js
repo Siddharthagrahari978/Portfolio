@@ -1,6 +1,6 @@
 // For Loader
 document.onreadystatechange = function() { 
-	if (document.readyState !== "complete") { 
+	if (document.readyState !== "complete" && !setInterval(()=>{return true;},3000)) { 
 		document.querySelector("body").style.visibility = "hidden"; 
 		document.querySelector("#loader").style.visibility = "visible"; 
 	} else { 
