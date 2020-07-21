@@ -5,7 +5,7 @@ document.onreadystatechange = function() {
 		document.querySelector("body").style.visibility = "hidden"; 
 		document.querySelector("#loader").style.visibility = "visible"; 
 	} else if(document.readyState == "complete") { 
-		var timeTaken=(Date.now()-timeStart)/1000;
+		var timeTaken=(Date.now()-timerStart)/1000;
 		var loadingTime = 3000-timeTaken;
 		console.log(timeTaken,loadingTime);
 		window.setTimeout(function(){
