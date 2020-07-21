@@ -1,16 +1,18 @@
 // For Loader
 var timerStart = Date.now();
 var timeTaken = 0;
+var loadingTime = 0;
 document.onreadystatechange = function() { 
 	if (document.readyState !== "complete") { 
 		document.querySelector("body").style.visibility = "hidden"; 
 		document.querySelector("#loader").style.visibility = "visible"; 
 	} else if(document.readyState == "complete") { 
 		timeTaken=(Date.now()-timeStart)/1000;
+		loadingTime = 3000-timeTaken;
 		window.setTimeout(function(){
 			document.querySelector("#loader").style.display = "none"; 
 			document.querySelector("body").style.visibility = "visible"; 
-		},(3000-timeTaken));
+		},loadingTime);
 	} 
 };
 
