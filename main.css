@@ -24,13 +24,18 @@
   width:100%;
 }
 #loading { 
-            border: 7px solid #205e6b; 
+            border: 7px solid #21444B; 
             border-radius: 50%; 
-            border-top: 7px solid #21444B; 
+            border-top: 7px solid #205e6b; 
             width: 60px; 
             height: 60px;
             animation: spin 1s linear infinite; 
         } 
+#loading-text{
+  color:#205e6b;
+  animation: none;
+  padding: auto;
+}
           
         @keyframes spin { 
             100% { 
