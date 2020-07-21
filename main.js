@@ -6,7 +6,8 @@ document.onreadystatechange = function() {
 		document.querySelector("#loader").style.visibility = "visible"; 
 	} else if(document.readyState == "complete") { 
 		var timeTaken=(Date.now()-timerStart)/1000;
-		var loadingTime = 1500-timeTaken;
+		if(timeTaken<1500){var loadingTime = 1500-timeTaken;}
+		else{var loadingTime = timeTaken;}
 		console.log(timeTaken,loadingTime);
 		window.setTimeout(function(){
 			document.querySelector("#loader").style.display = "none"; 
