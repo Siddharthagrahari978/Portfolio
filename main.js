@@ -1,3 +1,14 @@
+// For Loader
+document.onreadystatechange = function() { 
+	if (document.readyState !== "complete") { 
+		document.querySelector("body").style.visibility = "hidden"; 
+		document.querySelector("#loader").style.visibility = "visible"; 
+	} else { 
+		document.querySelector("#loader").style.display = "none"; 
+		document.querySelector("body").style.visibility = "visible"; 
+	} 
+};
+
 // Function expression to select elements
 const selectElement = (s) => document.querySelector(s);
 const navLinks = document.querySelectorAll(".nav-link");
