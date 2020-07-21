@@ -308,7 +308,7 @@ nav {
   overflow: hidden;
   white-space: nowrap;
   animation: typing 5s steps(28), blink 1s ease-in-out 7s infinite;
-  animation-delay: 2s;
+  animation-delay: 3s;
   border-right: 4px solid #fafafa;
   margin: 6rem auto;
   width: 25ch;
