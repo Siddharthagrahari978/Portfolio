@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+      // For Loader
+      var timerStart = Date.now();
+    </script>
   </head>
   <body>
     <div id="loader"><div id="loading" class="center"><div id="loading-text">S</div></div></div>
@@ -364,6 +368,22 @@
       offset:200,
       duration:650,
     });
+    // For Header
+    document.onreadystatechange = function() { 
+      if (document.readyState !== "complete") { 
+        document.querySelector("body").style.visibility = "hidden"; 
+        document.querySelector("#loader").style.visibility = "visible"; 
+      } else if(document.readyState == "complete") { 
+        var timeTaken=(Date.now()-timerStart)/1000;
+        if(timeTaken<1500){var loadingTime = 1500-timeTaken;}
+        else{var loadingTime = timeTaken;}
+        console.log(timeTaken,loadingTime);
+        window.setTimeout(function(){
+          document.querySelector("#loader").style.display = "none"; 
+          document.querySelector("body").style.visibility = "visible";
+        },loadingTime);
+      }
+    }
   </script>
   </body>
 </html>
