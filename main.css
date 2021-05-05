@@ -545,6 +545,7 @@ hr {
 }
 .project-img {
   flex: 1;
+  border-radius:10px;
 }
 
 .project-description {
