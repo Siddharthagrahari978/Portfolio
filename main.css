@@ -509,7 +509,6 @@ hr {
 .has-margin-right {
   margin: 0 3rem 0 0;
 }
-
 .projects {
   padding: 0;
   padding: 3rem 0;
@@ -576,6 +575,24 @@ hr {
   margin: 2rem 0;
   font-size: 1.4rem;
 }
+
+/* Experience */
+.experience {
+  padding: 0;
+  padding: 3rem 0;
+  min-height: 100vh;
+  max-width: 85rem;
+  margin: auto;
+  overflow:hidden;
+}
+.experience-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin: 0 1.45rem 5rem 1.45rem;
+  align-items: center;
+}
+
 /* Contact */
 
 .contact {
