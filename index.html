@@ -1,503 +1,464 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Siddharth Kumar | Full-Stack Web Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/web-programming.svg" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script>
-      // For Loader
-      var timerStart = Date.now();
-    </script>
-  </head>
-  <body>
-    <div id="loader"><div id="loading" class="center"><div id="loading-text">S</div></div></div>
-    <header>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Siddharth Kumar | Full-Stack Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/web-programming.svg" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script>
+    // For Loader
+    var timerStart = Date.now();
+  </script>
+</head>
+
+<body>
+  <div id="loader">
+    <div id="loading" class="center">
+      <div id="loading-text">S</div>
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="images/code.png" alt="code.png" />
+          </a>
+        </div>
+        <div class="burger-menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#landing-page">
+              <img src="images/profile-pic.jpg" alt="Siddharth Kumar" class="profile-pic nav-link" />
+              <span class="caption nav-link">Siddharth Kumar</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://siddharthagrahari978.github.io/Resume/" target="_blank" class="nav-link">My Resume</a>
+          </li>
+          <li class="nav-item social-icons">
+            <a href="https://github.com/Siddharthagrahari978/" target="_blank" class="nav-link">
+              <i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/SIDDHAR36033105" target="_blank" class="nav-link">
+              <i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/siddharthkumaragrahari/" target="_blank" class="nav-link">
+              <i class="fab fa-instagram"></i></a>
+          </li>
+          <div class="cta">
+            <a href="https://paypal.me/siddharthkumar978?locale.x=en_GB" target="_blank" class="btn nav-link">
+              Buy me a coffee
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="landing-page" class="landing-page">
       <div class="container">
-        <nav>
-          <div class="nav-brand">
-            <a href="index.html">
-              <img src="images/code.png" alt="code.png" />
-            </a>
-          </div>
-          <div class="burger-menu-icon">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#landing-page">
-                <img
-                  src="images/profile-pic.jpg"
-                  alt="Siddharth Kumar"
-                  class="profile-pic nav-link"
-                />
-                <span class="caption nav-link">Siddharth Kumar</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item social-icons">
-              <a
-                href="https://github.com/Siddharthagrahari978/"
-                target="_blank"
-                class="nav-link"
-              >
-                <i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://twitter.com/SIDDHAR36033105"
-                target="_blank"
-                class="nav-link">
-                <i class="fab fa-twitter"></i
-              ></a>
-              <a 
-                href="https://www.instagram.com/siddharthkumaragrahari/" 
-                target="_blank"
-                class="nav-link">
-              <i class="fab fa-instagram"></i
-             ></a>
-            </li>
+        <div class="main-message">
+          <h1>Siddharth Kumar</h1>
+          <h3>{Full-Stack Developer}</h3>
+          <p>
+            NodeJS . ReactJS . MongoDB . ExpressJS . PHP . mySQL . Groovy
+          </p>
+          <p>
+            Docker . Jenkins . Azure . AWS
+          </p>
+          <div class="intro-btn">
             <div class="cta">
-              <a
-                href="https://paypal.me/siddharthkumar978?locale.x=en_GB"
-                target="_blank"
-                class="btn nav-link">
-                Buy me a coffee
-              </a>
+              <a href="#contact" class="btn">Work With Me</a>
             </div>
-          </ul>
-        </nav>
+          </div>
+          <div>
+            <a href="#about" class="scroll-down">
+              <span class="material-icons">
+                expand_more
+              </span></a>
+          </div>
+        </div>
       </div>
-    </header>
-
-    <main>
-      <section id="landing-page" class="landing-page">
-        <div class="container">
-          <div class="main-message">
-            <h1>Siddharth Kumar</h1>
-            <h3>{Full-Stack Developer}</h3>
-            <p>
-              NodeJS . ReactJS . MongoDB . ExpressJS . PHP . mySQL . Groovy
-            </p>
-            <p>
-              Docker . Jenkins . Azure . AWS
-            </p>
-            <div class="intro-btn">
-              <div class="cta">
-                <a href="#contact" class="btn">Work With Me</a>
-              </div>
-            </div>
-            <div>
-              <a href="#about" class="scroll-down">
-                <span class="material-icons">
-                  expand_more
-                </span></a
-              >
-            </div>
-          </div>
+    </section>
+    <section id="about" class="about" data-aos="fade-up">
+      <div class="container">
+        <div class="about-img">
+          <img src="images/profile-pic.jpg" alt="Siddharth Kumar" class="about-pic" />
         </div>
-      </section>
-      <section id="about" class="about" data-aos="fade-up">
-        <div class="container">
-          <div class="about-img">
-            <img
-              src="images/profile-pic.jpg"
-              alt="Siddharth Kumar"
-              class="about-pic"
-            />
-          </div>
-          <div class="about-text-box">
-            <h2>Hello 👋🏽</h2>
-            <p>
-              I'm Siddharth,a 22-year-old
-              <strong> Full-Stack Developer / DevOps Engineer </strong> 💻 with a strong
-              educational background in Computer Science. I have worked on many 
-              projects.
-            </p>
-            <p>
-              <strong>I am a Technology enthusiast</strong> and extremely
-              passionate about coding. I love working with technology related to Development and DevOps.
-              To learn new things every day and keep up with the new technologies I devote my time to regularly sharpen my skills and
-              thrive to Learn more.
-              In many ways, technologies are my
-              first love 💙.
-            </p>
-          </div>
+        <div class="about-text-box">
+          <h2>Hello 👋🏽</h2>
+          <p>
+            I'm Siddharth,a 22-year-old
+            <strong> Full-Stack Developer / DevOps Engineer </strong> 💻 with a strong
+            educational background in Computer Science. I have worked on many
+            projects.
+          </p>
+          <p>
+            <strong>I am a Technology enthusiast</strong> and extremely
+            passionate about coding. I love working with technology related to Development and DevOps.
+            To learn new things every day and keep up with the new technologies I devote my time to regularly sharpen my
+            skills and
+            thrive to Learn more.
+            In many ways, technologies are my
+            first love 💙.
+          </p>
         </div>
-        <hr />
-      </section>
-      <section id="services" class="services" data-aos="fade-up">
-        <div class="container">
-          <div class="title-heading">
-            <h1>Digitize your business</h1>
+      </div>
+      <hr />
+    </section>
+    <section id="services" class="services" data-aos="fade-up">
+      <div class="container">
+        <div class="title-heading">
+          <h1>Digitize your business</h1>
+          <p>
+            I will help you make your first impression remarkable with my creativity and knowledge of rolling
+            technology.
+          </p>
+        </div>
+        <div class="service-tiers">
+          <!-- First service -->
+          <div class="tier-item web-development">
+            <span class="material-icons">
+              code
+            </span>
+            <h1>DevOps</h1>
             <p>
-              I will help you make your first impression remarkable with my creativity and knowledge of rolling technology.
+              Take care of your Product and Business continuity in Style with technologies like Jenkins, Docker, etc.
+              You name it. I will make it happen!
             </p>
           </div>
-          <div class="service-tiers">
-            <!-- First service -->
-            <div class="tier-item web-development">
-              <span class="material-icons">
-                code
-              </span>
-              <h1>DevOps</h1>
-              <p>
-                Take care of your Product and Business continuity in Style with technologies like Jenkins, Docker, etc.
-                You name it. I will make it happen!
-              </p>
-            </div>
 
-            <!-- Second service -->
-            <div class="tier-item responsive-design">
-              <span class="material-icons">
-                devices
-              </span>
-              <h1>Responsive Design</h1>
-              <p>
-                In 2021 you can't go online without having a mobile responsive
-                website. Let me take care of that for you!
-              </p>
-            </div>
-
-            <!-- Third service -->
-            <div class="tier-item psd-html">
-              <span class="material-icons">
-                developer_mode
-              </span>
-              <h1>PSD to HTML</h1>
-              <p>
-                If you already have a design in Photoshop, Invision or any other
-                format, I can convert it from scratch into pixel-perfect
-                HTML/CSS/JS website.
-              </p>
-            </div>
-          </div>
-        </div>
-        <hr />
-      </section>
-
-      <section id="projects" class="projects">
-        <div class="container">
-          <div class="title-heading">
-            <h1>Projects</h1>
+          <!-- Second service -->
+          <div class="tier-item responsive-design">
+            <span class="material-icons">
+              devices
+            </span>
+            <h1>Responsive Design</h1>
             <p>
-              These are some of my projects
+              In 2021 you can't go online without having a mobile responsive
+              website. Let me take care of that for you!
+            </p>
+          </div>
+
+          <!-- Third service -->
+          <div class="tier-item psd-html">
+            <span class="material-icons">
+              developer_mode
+            </span>
+            <h1>PSD to HTML</h1>
+            <p>
+              If you already have a design in Photoshop, Invision or any other
+              format, I can convert it from scratch into pixel-perfect
+              HTML/CSS/JS website.
             </p>
           </div>
         </div>
-        <!-- Seventh project -->
-        <div class="project-item" data-aos="fade-right">
-          <div class="project-img">
-            <img src="images/CryptoTracker.png" />
-          </div>
-          <div class="project-description">
-            <h1>CryptoTracker</h1>
-            <p>
-              It is a NodeJS Web Application providing the data about the top 10 crypto currencies with all its details with a
-              Dark-Light theme in real time.
-              The data being displayed in this is sourced from CoinMarketCaps Official API to provide concrete data everytime.
-            </p>
-            <a href="https://cryptotracker978.herokuapp.com/" target="_blank" class="btn">Have a look</a>
-            <a href="https://github.com/Siddharthagrahari978/CryptoTracker" class="project-link" target="_blank"><i
-                class="fa fa-github" aria-hidden="true"> View Code</i>
-            </a>
-          </div>
+      </div>
+      <hr />
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="title-heading">
+          <h1>Projects</h1>
+          <p>
+            These are some of my projects
+          </p>
         </div>
-        <!-- Sixth project -->
-        <div class="project-item" data-aos="fade-left">
-          <div class="project-img">
-            <a href="https://emailer-sendgrid.herokuapp.com/" target="_blank"><img src="images/emailer-sendgrid.png" /></a>
-          </div>
-          <div class="project-description">
-            <h1>Emailer Via SendGrid</h1>
-            <p>
-              It is a NodeJS App which helps you send emails using Sendgrid api, and other nodeJS libraries and Framework likes ReactJS, ExpressJS, Socket.io, etc.
-            </p>
-            <p>
-              Features:
-              <ol style='margin-left: 2rem; font-size: 1.4rem;'>
-                <li>Emails are sent through a secured relay and not any in-built language functions like pHp.</li>
-                <li>Gmail level security and managed by a reputed company, Twilio.</li>
-                <li>Email are sent at 100% rate. Which means your emails will not get stuck or filtered as spam.</li>
-              </ol>
-            </p>
-            <a href="https://emailer-sendgrid.herokuapp.com/" target="_blank" class="btn">Have a look</a>
-            <a
-              href="https://github.com/Siddharthagrahari978/EmailSenderViaSendGrid"
-              class="project-link"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i>
-            </a>
-          </div>
+      </div>
+      <!-- Seventh project -->
+      <div class="project-item" data-aos="fade-right">
+        <div class="project-img">
+          <a href="https://cryptotracker978.netlify.app/" target="_blank"><img src="images/CryptoTracker.png" /></a>
         </div>
-        <!-- Fifth project -->
-        <div class="project-item" data-aos="fade-right">
-          <div class="project-img">
-            <a href="https://chat-cord-978.herokuapp.com/" target="_blank" ><img src="images/Chat-cord.png" /></a>
-          </div>
-          <div class="project-description">
-            <h1>Chat Cord</h1>
-            <p>
-              It is a session based chat app, It creates disposable Rooms providing a relay connection between clients.
-              As the data is not saved anywhere it is very much secure.
-              I built this app with NodeJS used really interesting modules and frameworks like expressJS and Socket.io. 
-            </p>
-            <a href="https://chat-cord-978.herokuapp.com/" target="_blank" class="btn">Have a look</a>
-            <a
-              href="https://github.com/Siddharthagrahari978/ChatCord"
-              class="project-link"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i>
-            </a>
-          </div>
+        <div class="project-description">
+          <h1>CryptoTracker</h1>
+          <p>
+            It is a NodeJS Web Application providing the data about the top 10 crypto currencies with all its details
+            with a
+            Dark-Light theme in real time.
+            The data being displayed in this is sourced from CoinMarketCaps Official API to provide concrete data
+            everytime.
+          </p>
+          <a href="https://cryptotracker978.netlify.app/" target="_blank" class="btn">Have a look</a>
+          <a href="https://github.com/Siddharthagrahari978/CryptoTracker" class="project-link" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"> View Code</i>
+          </a>
         </div>
-        
-        <!-- Fourth project -->
-        <div class="project-item" data-aos="fade-left">
-          <div class="project-img">
-            <a href="https://my-secret-diary-project.herokuapp.com/" target="_blank"><img src="images/secretdiary.png" /></a>
-          </div>
-          <div class="project-description">
-            <h1>Secret Diary</h1>
-            <p>
-              This is a online diary app which stores all the information saved 
-              by the user. 
-              I developed this system using HTML, CSS, PHP and mySQL.
-              For a demo,use email "demo@diary.com" and password "demo".
-            </p>
-            <a href="https://my-secret-diary-project.herokuapp.com/" target="_blank" class="btn">Have a look</a>
-            <a
-              href="https://github.com/Siddharthagrahari978/secretdiary"
-              class="project-link"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
+      </div>
+      <!-- Sixth project -->
+      <div class="project-item" data-aos="fade-left">
+        <div class="project-img">
+          <a href="https://emailer-sendgrid.herokuapp.com/" target="_blank"><img
+              src="images/emailer-sendgrid.png" /></a>
+        </div>
+        <div class="project-description">
+          <h1>Emailer Via SendGrid</h1>
+          <p>
+            It is a NodeJS App which helps you send emails using Sendgrid api, and other nodeJS libraries and Framework
+            likes ReactJS, ExpressJS, Socket.io, etc.
+          </p>
+          <p>
+            Features:
+          <ol style='margin-left: 2rem; font-size: 1.4rem;'>
+            <li>Emails are sent through a secured relay and not any in-built language functions like pHp.</li>
+            <li>Gmail level security and managed by a reputed company, Twilio.</li>
+            <li>Email are sent at 100% rate. Which means your emails will not get stuck or filtered as spam.</li>
+          </ol>
+          </p>
+          <!-- <a href="https://emailer-sendgrid.herokuapp.com/" target="_blank" class="btn">Have a look</a> -->
+          <a href="https://github.com/Siddharthagrahari978/EmailSenderViaSendGrid" class="project-link"
+            target="_blank"><i class="fa fa-github" aria-hidden="true"> View Code</i>
+          </a>
+        </div>
+      </div>
+      <!-- Fifth project -->
+      <div class="project-item" data-aos="fade-right">
+        <div class="project-img">
+          <a href="https://chatcord978.netlify.app/" target="_blank"><img src="images/Chat-cord.png" /></a>
+        </div>
+        <div class="project-description">
+          <h1>Chat Cord</h1>
+          <p>
+            It is a session based chat app, It creates disposable Rooms providing a relay connection between clients.
+            As the data is not saved anywhere it is very much secure.
+            I built this app with NodeJS used really interesting modules and frameworks like expressJS and Socket.io.
+          </p>
+          <a href="https://chatcord978.netlify.app/" target="_blank" class="btn">Have a look</a>
+          <a href="https://github.com/Siddharthagrahari978/ChatCord" class="project-link" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"> View Code</i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Fourth project -->
+      <div class="project-item" data-aos="fade-left">
+        <div class="project-img">
+          <a href="https://my-secret-diary-project.herokuapp.com/" target="_blank"><img
+              src="images/secretdiary.png" /></a>
+        </div>
+        <div class="project-description">
+          <h1>Secret Diary</h1>
+          <p>
+            This is a online diary app which stores all the information saved
+            by the user.
+            I developed this system using HTML, CSS, PHP and mySQL.
+            For a demo,use email "demo@diary.com" and password "demo".
+          </p>
+          <!-- <a href="https://my-secret-diary-project.herokuapp.com/" target="_blank" class="btn">Have a look</a> -->
+          <a href="https://github.com/Siddharthagrahari978/secretdiary" class="project-link" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"> View Code</i></a>
+        </div>
+      </div>
+
+      <!-- Third project -->
+      <div class="project-item" data-aos="fade-right">
+        <div class="project-img">
+          <a href="https://calculatorwithdarkmode.netlify.app/" target="_blank"><img src="images/calculator.png" /></a>
+        </div>
+        <div class="project-description">
+          <h1>Calculator with Dark-Light Theme</h1>
+          <p>
+            This is a simple calculator which performs the most common
+            arithmetic operations. It have cool design and buttons are
+            arranged nicely using CSS grid. I used JavaScript to receive
+            input, perform computation and display the correct result on
+            "screen".
+          </p>
+          <a href="https://calculatorwithdarkmode.netlify.app/" target="_blank" class="btn">Have a look</a>
+          <a href="https://github.com/Siddharthagrahari978/calculatorwithdarkmode" class="project-link"
+            target="_blank"><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
         </div>
 
-        <!-- Third project -->
-        <div class="project-item" data-aos="fade-right">
-          <div class="project-img">
-            <a href="https://calculatorwithdarkmode.netlify.app/" target="_blank"><img src="images/calculator.png" /></a>
-          </div>
-          <div class="project-description">
-            <h1>Calculator with Dark-Light Theme</h1>
-            <p>
-              This is a simple calculator which performs the most common
-              arithmetic operations. It have cool design and buttons are
-              arranged nicely using CSS grid. I used JavaScript to receive
-              input, perform computation and display the correct result on
-              "screen".
-            </p>
-            <a href="https://calculatorwithdarkmode.netlify.app/" target="_blank" class="btn">Have a look</a>
-            <a
-              href="https://github.com/Siddharthagrahari978/calculatorwithdarkmode"
-              class="project-link"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
-          
+      </div>
+      <!-- Second project -->
+      <div class="project-item" data-aos="fade-left">
+        <div class="project-img">
+          <a href="https://commentmanagementsystem.herokuapp.com/" target="_blank"><img
+              src="images/commentmanagesystem.png" /></a>
         </div>
-        <!-- Second project -->
-        <div class="project-item" data-aos="fade-left">
-          <div class="project-img">
-            <a href="https://commentmanagementsystem.herokuapp.com/" target="_blank"><img src="images/commentmanagesystem.png" /></a>
-          </div>
-          <div class="project-description">
-            <h1>Comment Management System</h1>
-            <p>
-              This is a system for managing comments with the time stamp
-              made by different users. 
-              I developed this system using HTML, CSS, PHP and JSON.
-              For demo, username "demo" and password "demo".
-            </p>
-            <a href="https://commentmanagementsystem.herokuapp.com/" target="_blank" class="btn">Have a look</a>
-            <a
-              href="https://github.com/Siddharthagrahari978/commentmanagementsystem"
-              class="project-link"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
+        <div class="project-description">
+          <h1>Comment Management System</h1>
+          <p>
+            This is a system for managing comments with the time stamp
+            made by different users.
+            I developed this system using HTML, CSS, PHP and JSON.
+            For demo, username "demo" and password "demo".
+          </p>
+          <!-- <a href="https://commentmanagementsystem.herokuapp.com/" target="_blank" class="btn">Have a look</a> -->
+          <a href="https://github.com/Siddharthagrahari978/commentmanagementsystem" class="project-link"
+            target="_blank"><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
         </div>
-        <!-- First project -->
-        <div class="project-item" data-aos="fade-right">
-          <div class="project-img">
-            <a href="https://weather-app-978.herokuapp.com/" target="_blank"><img src="images/weather.png" /></a>
-          </div>
-          <div class="project-description">
-            <h1>Weather App</h1>
-            <p>
-              This is a simple weather app which performs the a common
-              operations. It have cool design arranged nicely using CSS grid.
-              I used API to receive weather for the respective cty,
-              perform computation and display the correct result on
-              "screen".
-            </p>
-            <a href="https://weather-app-978.herokuapp.com/" target="_blank" class="btn">Have a look</a>
-            <a
-              href="https://github.com/Siddharthagrahari978/weather-app"
-              class="project-link"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
+      </div>
+      <!-- First project -->
+      <div class="project-item" data-aos="fade-right">
+        <div class="project-img">
+          <a href="https://wetherapp.tiiny.io/" target="_blank"><img src="images/weather.png" /></a>
         </div>
-        <hr />
-      </section>
-
-
-
-      <!-- for Past Experiences -->
-
-      <section id="experiences" class="experiences">
-        <div class="container">
-          <div class="title-heading">
-            <h1>Past Work Experiences</h1>
-            <p>
-              These are My Work Experiences
-            </p>
-          </div>
+        <div class="project-description">
+          <h1>Weather App</h1>
+          <p>
+            This is a simple weather app which performs the a common
+            operations. It have cool design arranged nicely using CSS grid.
+            I used API to receive weather for the respective cty,
+            perform computation and display the correct result on
+            "screen".
+          </p>
+          <a href="https://wetherapp.tiiny.io/" target="_blank" class="btn">Have a look</a>
+          <a href="https://github.com/Siddharthagrahari978/weather-app" class="project-link" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"> View Code</i></a>
         </div>
-<!-- Second Experience -->
-<div>
-  <h1 class="h1-style">Full Stack Developer/DevOps Engineer at IntelleWings Pvt. Ltd.</h1>
-  <p class="experience-description">
-    I worked for 1 year 2 months at this organizaion, and my responsibilities envolved working on there one of the main
-    three major modules of their product as a Developer,
-    and provide the CI/CD solutions regarding Deployment and Server Management on Azure/IBM Cloud to insure buisness
-    continuity as a DevOps Engineer.
-  </p>
-
-  <img class="experience-image" src="images/intellewings.png" />
-</div>
-<!-- First Experience -->
-<div>
-  <h1 class="h1-style">Developer at BMUCO</h1>
-  <p class="experience-description">
-    I worked for a month at this organizaion, and helped them work on there companies portfolio website as a Web
-    Developer.
-  </p>
-<img class="experience-image" src="images/bmuco.png" />
-</div>
-
-        <hr />
-      </section>
+      </div>
+      <hr />
+    </section>
 
 
 
+    <!-- for Past Experiences -->
 
-
-      <section id="contact" class="contact" data-aos="fade-up">
-        <h1>Get In Touch</h1>
-        <p>
-          I'd love if you reached out to me. Even if it's just to say "Hey!".
-          Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+    <section id="experiences" class="experiences">
+      <div class="container">
+        <div class="title-heading">
+          <h1>Past Work Experiences</h1>
+          <p>
+            These are My Work Experiences
+          </p>
+        </div>
+      </div>
+      <!-- Second Experience -->
+      <div>
+        <h1 class="h1-style">Full Stack Developer/DevOps Engineer at IntelleWings Pvt. Ltd.</h1>
+        <p class="experience-description">
+          I worked for 1 year 2 months at this organizaion, and my responsibilities envolved working on there one of the
+          main
+          three major modules of their product as a Developer,
+          and provide the CI/CD solutions regarding Deployment and Server Management on Azure/IBM Cloud to insure
+          buisness
+          continuity as a DevOps Engineer.
         </p>
-        
-        <div class="container">
-          <p>
-            <a href="mailto:siddharthagrahari978@gmail.com"
-              ><i class="fas fa-envelope-open"></i> siddharthagrahari978@gmail.com</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/Siddharthagrahari978" target="_blank">
-              <i class="fab fa-github"> Github</i></a
-            >
-          </p>
-          <p>
-            <a href="https://twitter.com/SIDDHAR36033105" target="_blank">
-              <i class="fab fa-twitter"> Twitter</i></a
-            >
-          </p>
-          <p>
-            <a href="https://www.instagram.com/siddharthkumaragrahari/" target="_blank">
-              <i class="fab fa-instagram"> Instagram</i></a
-            >
-          </p>
-        </div>
-        <hr />
-      </section>
-      <footer>
-        <div class="footer-nav">
-          <a href="#landing-page" class="footer-nav-link">Home</a>
-          <a href="#about" class="footer-nav-link">About</a>
-          <a href="#services" class="footer-nav-link">Services</a>
-          <a href="#projects" class="footer-nav-link">Projects</a>
-          <a href="#contact" class="footer-nav-link">Contact</a>
-        </div>
-        <div class="footer-coded-by">
-          <p>
-            <i class="fas fa-code"></i> with 💙 by Siddharth Kumar &copy; 2020
-          </p>
-          <p>
-            Built with pure HTML, CSS and JavaScript
-          </p>
-        </div>
-        <div class="footer-social">
-          <a href="https://www.instagram.com/siddharthkumaragrahari/" target="_blank">
-              <i class="fab fa-instagram"></i></a
-            >
+
+        <img class="experience-image" src="images/intellewings.png" />
+      </div>
+      <!-- First Experience -->
+      <div>
+        <h1 class="h1-style">Developer at BMUCO</h1>
+        <p class="experience-description">
+          I worked for a month at this organizaion, and helped them work on there companies portfolio website as a Web
+          Developer.
+        </p>
+        <img class="experience-image" src="images/bmuco.png" />
+      </div>
+
+      <hr />
+    </section>
+
+
+
+
+
+    <section id="contact" class="contact" data-aos="fade-up">
+      <h1>Get In Touch</h1>
+      <p>
+        I'd love if you reached out to me. Even if it's just to say "Hey!".
+        Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+      </p>
+
+      <div class="container">
+        <p>
+          <a href="mailto:siddharthagrahari978@gmail.com"><i class="fas fa-envelope-open"></i>
+            siddharthagrahari978@gmail.com</a>
+        </p>
+        <p>
           <a href="https://github.com/Siddharthagrahari978" target="_blank">
-              <i class="fab fa-github"></i></a
-            >
+            <i class="fab fa-github"> Github</i></a>
+        </p>
+        <p>
           <a href="https://twitter.com/SIDDHAR36033105" target="_blank">
-            <i class="fab fa-twitter"></i
-          ></a>
-        </div>
-      </footer>
-    </main>
-    <script src="main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/836a943e18.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <i class="fab fa-twitter"> Twitter</i></a>
+        </p>
+        <p>
+          <a href="https://www.instagram.com/siddharthkumaragrahari/" target="_blank">
+            <i class="fab fa-instagram"> Instagram</i></a>
+        </p>
+      </div>
+      <hr />
+    </section>
+    <footer>
+      <div class="footer-nav">
+        <a href="#landing-page" class="footer-nav-link">Home</a>
+        <a href="#about" class="footer-nav-link">About</a>
+        <a href="#services" class="footer-nav-link">Services</a>
+        <a href="#projects" class="footer-nav-link">Projects</a>
+        <a href="#contact" class="footer-nav-link">Contact</a>
+        <a href="https://siddharthagrahari978.github.io/Resume/" target="_blank" class="nav-link">My Resume</a>
+      </div>
+      <div class="footer-coded-by">
+        <p>
+          <i class="fas fa-code"></i> with 💙 by Siddharth Kumar &copy; 2020
+        </p>
+        <p>
+          Built with pure HTML, CSS and JavaScript
+        </p>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/siddharthkumaragrahari/" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/Siddharthagrahari978" target="_blank">
+          <i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/SIDDHAR36033105" target="_blank">
+          <i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <script>
     AOS.init({
-      offset:200,
-      duration:650,
+      offset: 200,
+      duration: 650,
     });
     // For Header
-    document.onreadystatechange = function() { 
-      if (document.readyState !== "complete") { 
+    document.onreadystatechange = function () {
+      if (document.readyState !== "complete") {
         //document.querySelector("body").style.visibility = "hidden";
         document.querySelector("body").style.overflow = "hidden";
-        document.querySelector("#loader").style.visibility = "visible"; 
-      } else if(document.readyState == "complete") { 
-        var timeTaken=(Date.now()-timerStart)/1000;
-        if(timeTaken<1500){var loadingTime = 1500-timeTaken;}
-        else{var loadingTime = timeTaken;}
-        console.log(timeTaken,loadingTime);
-        window.setTimeout(function(){
-          document.querySelector("#loader").style.display = "none"; 
+        document.querySelector("#loader").style.visibility = "visible";
+      } else if (document.readyState == "complete") {
+        var timeTaken = (Date.now() - timerStart) / 1000;
+        if (timeTaken < 1500) { var loadingTime = 1500 - timeTaken; }
+        else { var loadingTime = timeTaken; }
+        console.log(timeTaken, loadingTime);
+        window.setTimeout(function () {
+          document.querySelector("#loader").style.display = "none";
           document.querySelector("body").style.visibility = "visible";
           document.querySelector("body").style.overflow = "visible";
-        },loadingTime);
+        }, loadingTime);
       }
     }
   </script>
-  </body>
+</body>
+
 </html>
